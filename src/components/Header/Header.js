@@ -9,6 +9,7 @@ const Header = () => {
                 <h3 className='sm:text-center'>Coding School</h3>
             </div>
             <div className='md:flex space-x-4 md:pr-10 font-semibold'>
+                <Link to='/'>Home</Link>
                 <Link to='/statistic'>Statistics</Link>
                 <Link to='/blog'>Blog</Link>
             </div>
