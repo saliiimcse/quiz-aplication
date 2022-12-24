@@ -1,5 +1,8 @@
 # Getting Started with Create React App
-
+# This Project is Education purpose
+# Use react router
+# use react Toast
+# use tailwind css
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
