@@ -22,13 +22,13 @@ const Qna = ({questionData}) => {
     return (
         <div className='quiz p-3'>
 
-            <p>Question: {question}</p>
+            <p className='font-bold'>Question: {question}</p>
             <div className='options'>
                 {
                     options.map(opt => {
                       return <div>
-                      <input  onClick={() => notify(opt)} type="radio" name="size" value="ans" id={id}/>
-                      <label for="id">{opt}</label>
+                      <input  onClick={() => notify(opt)} type="radio" name="options" value="ans" id={opt}/>
+                      <label for={opt}>{opt}</label>
                       <ToastContainer />
                     </div>
                       
