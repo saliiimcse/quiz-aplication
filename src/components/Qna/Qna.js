@@ -15,7 +15,7 @@ const Qna = ({questionData}) => {
             toast("Correct");
         }
         else{
-            toast("incorrect");
+            toast("Incorrect");
         }
         
     }
