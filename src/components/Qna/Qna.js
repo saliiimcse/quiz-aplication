@@ -12,10 +12,10 @@ const Qna = ({questionData}) => {
     }
     const notify = (opt) => {
         if(correctAnswer == opt){
-            toast("Correct");
+            toast("Correct 😀");
         }
         else{
-            toast("Incorrect");
+            toast("Incorrect 😡");
         }
         
     }
